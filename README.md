@@ -1,4 +1,4 @@
-# HarisCommerce 🛒
+# HarisCommerce
 
 Project katalog produk bikinan aku pakai **React + Vite + React Router**. Data produknya diambil dari public API [DummyJSON](https://dummyjson.com). Bisa cari produk, filter, sorting, lihat detail, masukin keranjang, sampai checkout dan konfirmasi pembayaran.
 
@@ -121,9 +121,8 @@ Pembagiannya simpel:
 ### 4. Fitur interaktif
 
 **Search, filter, sorting, pagination (URL ikut berubah)**
-![Search dan filter](screenshots/filter.png)
-
-**Form catatan + validasi**
+![Search](screenshots/search.png)
+![filter](screenshots/filter.png)
 ![Filter Kategori](screenshots/filterKategori.png)
 
 **Form catatan + validasi**
