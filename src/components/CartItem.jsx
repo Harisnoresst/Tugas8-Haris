@@ -1,11 +1,12 @@
+import { Link } from 'react-router-dom'
 import { rupiah } from '../utils/format'
 
 export default function CartItem({ item, onQty, onRemove }) {
   return (
     <li className="cart-item">
-      <span className={`mini tone-${item.tone}`} aria-hidden="true">{item.emoji}</span>
+      <span className="mini tone-sky"><img src={item.image} alt="" /></span>
       <div className="cart-info">
-        <strong>{item.name}</strong>
+        <Link to={`/produk/${item.id}`}><strong>{item.name}</strong></Link>
         <span>{rupiah(item.price * item.qty)}</span>
         <div className="qty">
           <button onClick={() => onQty(item.id, -1)} aria-label="Kurangi">−</button>

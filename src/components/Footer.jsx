@@ -1,7 +1,9 @@
-export default function Footer({ profile }) {
+import { profile } from '../data/profile'
+
+export default function Footer() {
   return (
-    <footer id="tentang" className="footer">
-      <p><strong>{profile.nama}</strong> (NIM {profile.nim}) Tugas 7 Pengembangan Website.</p>
+    <footer className="footer">
+      <p><strong>{profile.nama}</strong> (NIM {profile.nim}) · {profile.prodi}, {profile.kampus}. Tugas Pengembangan Website.</p>
     </footer>
   )
 }
