@@ -138,3 +138,6 @@ Pembagiannya simpel:
 
 **Konfirmasi pembayaran (centang sudah bayar)**
 ![Konfirmasi pembayaran](screenshots/done.png)
+
+**Bukti commit**
+![Dokumentasi Total Commit](screenshots/commit.png)
